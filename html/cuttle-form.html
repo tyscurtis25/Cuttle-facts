@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="This is my first website with IS120! The theme will be cuttlefish...they're awesome, random, and why not?">
+
+    <!--meta info for icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!--Fb Card for Open Graph-->
+    <meta property="og:url" content="https://www.cuttlefacts.webdevtysc.com/">
+    <meta property="og:title" content="Cuttlefacts">
+    <meta property="og:description" content="Preview for Cuttlefacts page -- coming soon!">
+    <meta property="og:image" content="https://www.cuttlefacts.webdevtysc.com/img/cuttlefish.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+    <meta property="og:image:alt" content="cuttlefish swimming in ocean">
+    <meta property="og:type" content="article">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>cuttle-form</title>
+</head>
+
+<body class="form">
+    <header>
+        <div class="menu-icon">
+            <svg viewbox="0 0 60 60">
+                <line x1="5%" y1="50%" x2="95%" y2="50%" />
+                <line x1="5%" y1="50%" x2="95%" y2="50%" />
+            </svg>
+        </div>
+        <!--Navigation menu-->
+        <nav>
+            <div class="site-nav">
+                <div class="nav3">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a>Cuttle-Form</a></li>
+                        <li><a href="ftcuttle.html">Find the Cuttlefish</a></li>
+                        <li><a href="#">Sources</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+
+        <div class="form-title">
+            <h1>the cuttle-form</h1>
+        </div>
+
+        <div>
+            <div class="loading hidden">
+                <div class="loader">
+                    <div class="wrapper">
+                        <div></div>
+                    </div>
+                    <div class="wrapper">
+                        <div></div>
+                    </div>
+                    <div class="wrapper">
+                        <div></div>
+                    </div>
+                    <div class="wrapper">
+                        <div></div>
+                    </div>
+                    <div class="wrapper">
+                        <div></div>
+                    </div>
+                    <div class="wrapper">
+                        <div></div>
+                    </div>
+                    <div class="wrapper">
+                        <div></div>
+                    </div>
+                    <div class="wrapper">
+                        <div></div>
+                    </div>
+                    <div class="wrapper">
+                        <div></div>
+                    </div>
+                    <div class="wrapper">
+                        <div></div>
+                    </div>
+                    <div class="wrapper">
+                        <div></div>
+                    </div>
+                    <div class="wrapper">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <p class="success-message hidden">Thank you for your input!</p>
+            <p class="error-message hidden">Something has gone terribly wrong and I'm rather afraid I don't know what to
+                do.
+            </p>
+        </div>
+
+        <section>
+
+            <div class="want2cuttle">
+                <div class="msgbox">
+                    <h2>Wanna Cuttle?</h2>
+                </div>
+                <div class="cuttlefish-div">
+                    <img src="../images/cuttlefish.png" alt="yellow, cartoon cuttlefish" class="cuttlefish-svg">
+                </div>
+            </div>
+
+            <form name="cuttleform">
+                <label for="name">Full name:</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email">Email address:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="phone">Phone number:</label>
+                <input type="tel" name="phone" id="phone">
+
+                <label for="club-penguin">Club Penguin Profile:</label>
+                <input type="text" name="club-penguin" id="club-penguin">
+
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" name="birthdate" id="birthdate">
+
+                <p class="question">Reasons why cuttlefish are your favorite animal (check all that apply)</p>
+
+                <input type="checkbox" id="cool" name="reasons" value="cool">
+                <label for="cool">They're so cool!</label>
+
+                <input type="checkbox" id="soul-patronus" name="reasons" value="soul-patronus">
+                <label for="soul-patronus">They are my soul animal and/or patronus</label>
+
+                <input type="checkbox" id="cute-svg" name="reasons" value="cute-svg">
+                <label for="cute-svg">I can't believe I'm saying this, but that SVG is kinda cute</label>
+
+                <input type="checkbox" id="ninjas" name="reasons" value="ninjas">
+                <label for="ninjas">I'm a fan of the idea of underwater, color-blind ninjas (like, I'd totally go see a
+                    movie with a title like that)</label>
+
+                <input type="checkbox" id="convinced" name="reasons" value="convinced">
+                <label for="convinced">This website has 100% convinced me of this</label>
+
+                <input type="checkbox" id="filler" name="reasons" value="filler">
+                <label for="filler">This is just another box to check...couldn't come up with anything for this one, so
+                    just check it</label>
+
+                <input type="checkbox" id="want2cuttle" name="reasons" value="want2cuttle">
+                <label for="want2cuttle">I'm lonely and just want to cuttle</label>
+
+                <p class="question">What colors are that dress? (Oh yeah, you know which one I'm talking about, and you
+                    definitely think you know what it is)</p>
+
+                <input type="radio" name="color" id="blue-black" value="blue-black">
+                <label for="blue-black">Blue and Black</label>
+
+                <input type="radio" name="color" id="white-gold" value="white-gold">
+                <label for="white-gold">White and Gold</label>
+
+                <input type="radio" name="color" id="lame" value="lame">
+                <label for="lame">Prefer not to answer, because I'm lame</label>
+
+                <label for="scenario">If you found yourself in the middle of a zombie apocalypse scenario, and
+                    you had to be holed up in a building with 2 characters/people/individuals -- you can't choose
+                    deity, but they can be dead/alive, fictional/non-fictional -- who would they be and why?:</label>
+                <textarea name="scenario" id="scenario" rows="10"
+                    placeholder="Kronk and Spider-Man are my personal choices"></textarea>
+
+                <input type="submit" value="Submit Form">
+            </form>
+        </section>
+    </main>
+
+
+
+    <script>
+        // enter the URL for your Google Sheet 
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxfRYrQd-qH44ZpbpIK_0QqlHJquBLuEbqAhCkvVNeXsLxxtbPn78y-ZptKpJtHFy6QrA/exec'
+
+        // add a name attribute to your <form> and enter its value here 
+        const form = document.forms['cuttleform']
+
+        // enter the value of your checkboxes' name attribute
+        const checkboxName = "reasons"
+
+        // set these to your loader and message classes
+        const loading = document.querySelector('.loading')
+        const successMessage = document.querySelector('.success-message')
+        const errorMessage = document.querySelector('.error-message')
+
+        // this will run when the submit button is clicked
+        form.addEventListener('submit', event => {
+            // stops default form handling so we can submit it to Google Sheets instead
+            event.preventDefault()
+
+            // show the loader and hide form
+            form.classList.add('hidden')
+            loading.classList.remove('hidden')
+
+            // collect the form values into an object that can be sent to Google Sheets
+            let fd = new FormData(form);
+
+            /* If more than one checkbox is selected, the form will have multiple keys 
+               (checkbox name). Only the first checkbox value would be entered into 
+               Google Sheets. 
+               To get around this, concat all the selected checkbox values into a single 
+               string and send that value */
+
+            // grab all the selected values stored as key/value pairs of checkboxName/value
+            let checkBoxValues = fd.getAll(checkboxName)
+
+            // then delete them from the formData object
+            fd.delete(checkboxName);
+
+            // create a string
+            let text = ""
+            if (checkBoxValues.length <= 2) {
+                text = checkBoxValues.join(" and ")
+            } else {
+                let end = checkBoxValues.pop();
+                text = checkBoxValues.join(", ");
+                text += ", and " + end;
+            }
+            // add the key/value pair checkboxName/text back to the formData object
+            fd.append(checkboxName, text);
+
+            // use an asynchronous request to POST your formData object to your Google Sheet
+            fetch(scriptURL, {
+                method: 'POST',
+                body: fd,
+            })
+                // if response ok, show success message and hide loader, else display error
+                .then(response => {
+                    loading.classList.add('hidden')
+                    if (response.ok) {
+                        console.log('Success!', response)
+                        successMessage.classList.remove('hidden')
+                    } else {
+                        console.log("Something has gone terribly wrong and I'm rather afraid I don't know what to do.",
+                            response)
+                        errorMessage.classList.remove('hidden')
+                    }
+                })
+                // if error, show error message and hide loader
+                .catch(error => {
+                    console.error('Error!', error.message)
+                    errorMessage.classList.remove('hidden')
+                    loading.classList.add('hidden')
+                })
+        })
+    </script>
+    <script src="../special.js"></script>
+
+</body>
+
+</html>
